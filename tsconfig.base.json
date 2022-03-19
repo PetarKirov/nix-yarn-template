@@ -25,6 +25,9 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedParameters": false,
     "noUnusedLocals": false,
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@nix-yarn-template/cli": ["libs/cli/src/index.ts"]
+    }
   }
 }
