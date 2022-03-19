@@ -12,6 +12,12 @@
         "assets": ["apps/cli/*.md"]
       }
     },
+    "start": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "node dist/apps/cli/src/index.js"
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
