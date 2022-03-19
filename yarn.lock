@@ -17,9 +17,19 @@ __metadata:
   resolution: "nix-yarn-template@workspace:."
   dependencies:
     "@types/node": ^16.11.26
+    prettier: ^2.6.0
     typescript: ^4.6.2
   languageName: unknown
   linkType: soft
+
+"prettier@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "prettier@npm:2.6.0"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 3e527ad62279676778a8404d18174d7ca2365ada4caba6eebbcdd9907d1187afd3bc6ade5b4e5f5d4549bb9fb71e45ca8930d71500017635524f8fc05bc52e93
+  languageName: node
+  linkType: hard
 
 "typescript@npm:^4.6.2":
   version: 4.6.2
