@@ -6,6 +6,9 @@
     "libs/*"
   ],
   "devDependencies": {
+    "@nrwl/cli": "latest",
+    "@nrwl/tao": "latest",
+    "@nrwl/workspace": "latest",
     "@types/node": "^16.11.26",
     "prettier": "^2.6.0",
     "typescript": "^4.6.2"
