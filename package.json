@@ -5,6 +5,10 @@
     "apps/*",
     "libs/*"
   ],
+  "scripts": {
+    "start": "yarn nx start",
+    "build": "yarn nx build"
+  },
   "devDependencies": {
     "@nrwl/cli": "latest",
     "@nrwl/eslint-plugin-nx": "13.9.3",
