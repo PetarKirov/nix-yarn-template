@@ -1,0 +1,4 @@
+{
+  "name": "nix-yarn-template",
+  "packageManager": "yarn@3.2.0"
+}
