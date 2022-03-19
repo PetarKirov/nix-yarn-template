@@ -5,22 +5,22 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@types/node@npm:^16.11.26":
-  version: 16.11.26
-  resolution: "@types/node@npm:16.11.26"
-  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
-  languageName: node
-  linkType: hard
-
-"nix-yarn-template@workspace:.":
+"@nix-yarn-template/root@workspace:.":
   version: 0.0.0-use.local
-  resolution: "nix-yarn-template@workspace:."
+  resolution: "@nix-yarn-template/root@workspace:."
   dependencies:
     "@types/node": ^16.11.26
     prettier: ^2.6.0
     typescript: ^4.6.2
   languageName: unknown
   linkType: soft
+
+"@types/node@npm:^16.11.26":
+  version: 16.11.26
+  resolution: "@types/node@npm:16.11.26"
+  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
+  languageName: node
+  linkType: hard
 
 "prettier@npm:^2.6.0":
   version: 2.6.0

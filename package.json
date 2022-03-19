@@ -1,5 +1,5 @@
 {
-  "name": "nix-yarn-template",
+  "name": "@nix-yarn-template/root",
   "packageManager": "yarn@3.2.0",
   "workspaces": [
     "apps/*",
