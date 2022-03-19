@@ -27,7 +27,7 @@
     "noUnusedLocals": false,
     "typeRoots": ["./node_modules/@types"],
     "paths": {
-      "@nix-yarn-template/cli": ["libs/cli/src/index.ts"]
+      "@nix-yarn-template/cli": ["apps/cli/src/index.ts"]
     }
   }
 }

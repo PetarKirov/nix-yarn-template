@@ -1,29 +1,29 @@
 {
-  "root": "libs/cli",
-  "sourceRoot": "libs/cli/src",
+  "root": "apps/cli",
+  "sourceRoot": "apps/cli/src",
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/cli",
-        "main": "libs/cli/src/index.ts",
-        "tsConfig": "libs/cli/tsconfig.lib.json",
-        "assets": ["libs/cli/*.md"]
+        "outputPath": "dist/apps/cli",
+        "main": "apps/cli/src/index.ts",
+        "tsConfig": "apps/cli/tsconfig.lib.json",
+        "assets": ["apps/cli/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/cli/**/*.ts"]
+        "lintFilePatterns": ["apps/cli/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/cli"],
+      "outputs": ["coverage/apps/cli"],
       "options": {
-        "jestConfig": "libs/cli/jest.config.js",
+        "jestConfig": "apps/cli/jest.config.js",
         "passWithNoTests": true
       }
     }

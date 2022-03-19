@@ -736,9 +736,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nix-yarn-template/cli@workspace:libs/cli":
+"@nix-yarn-template/cli@workspace:apps/cli":
   version: 0.0.0-use.local
-  resolution: "@nix-yarn-template/cli@workspace:libs/cli"
+  resolution: "@nix-yarn-template/cli@workspace:apps/cli"
   languageName: unknown
   linkType: soft
 
