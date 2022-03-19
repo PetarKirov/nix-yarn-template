@@ -1,6 +1,10 @@
 {
   "name": "nix-yarn-template",
   "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
   "devDependencies": {
     "@types/node": "^16.11.26",
     "prettier": "^2.6.0",
