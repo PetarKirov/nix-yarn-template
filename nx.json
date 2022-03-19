@@ -1,6 +1,10 @@
 {
   "extends": "@nrwl/workspace/presets/npm.json",
   "npmScope": "nix-yarn-template",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
