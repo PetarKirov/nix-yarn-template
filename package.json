@@ -7,6 +7,7 @@
   ],
   "devDependencies": {
     "@nrwl/cli": "latest",
+    "@nrwl/js": "latest",
     "@nrwl/tao": "latest",
     "@nrwl/workspace": "latest",
     "@types/node": "^16.11.26",
