@@ -134,3 +134,9 @@ result
 
 # direnv temporary files
 .direnv/
+
+#Hardhat files
+coverage.json
+typechain
+cache
+artifacts
